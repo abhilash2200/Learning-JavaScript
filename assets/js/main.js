@@ -146,7 +146,6 @@ if (l === 10 || m <= 10) {
 
 
 
-
 // if condition
 
 let j = 15
@@ -156,7 +155,113 @@ if(j > k){
     // console.log('this is a if condition');
 }
 
+// if else condition
 
+let n = 10
+let o = 20
+
+if (n == o) {
+   // console.log('n and o are equal');
+} else {
+   // console.log('n and o are not equal');
+}
+
+
+// if else if condition
+
+let t = 10 
+
+if (t > 1 && t < 11) {
+   // console.log(`good morning`);
+} else if (t > 11 && t < 15) {
+   // console.log(`good afternoon`);
+} else if (t > 15 && t <18) {
+   // console.log(`good evening`);
+} else {
+   // console.log(`good night`);
+}
+
+// ternary operator
+
+let p = 10
+let result = p > 5? 'greater than 5' : 'less than or equal to 5'
+//console.log(result);
+
+/*
+working process
+
+[
+    if (p > 5) {
+        result = 'greater than 5';
+    } else {
+        result = 'less than or equal to 5';
+    }
+    console.log(result); //logged coz p = 10 value match with condition
+]
+
+The ternary operator checks if the condition (p > 5) is true.
+If it is true, it evaluates the expression to the right of the '?' (in this case, 'greater than 5').
+If it is false, it evaluates the expression to the right of the ':' (in this case, 'less than or equal to 5').
+In this case, p is greater than 5, so the result is 'greater than 5'.
+The ternary operator then assigns the value of the result to the variable'result'.
+The console.log statement then prints the value of the variable'result'.
+console.log('greater than 5'); //logged coz p = 10 value match with condition
+*/
+
+// switch statement
+
+let month = 5
+
+switch (month) {
+    case 1:
+       // console.log('January');
+        break;
+    case 2:
+       // console.log('February');
+        break;
+    case 3:
+       // console.log('March');
+        break;
+    case 4:
+       // console.log('April');
+        break;
+    case 5:
+       // console.log('May');
+        break;
+    case 6:
+       // console.log('June');
+        break;
+    case 7:
+       // console.log('July');
+        break;
+    case 8:
+       // console.log('August');
+        break;
+    case 9:
+       // console.log('September');
+        break;
+    case 10:
+       // console.log('October');
+        break;
+    case 11:
+       // console.log('November');
+        break;
+    case 12:
+       // console.log('December');
+        break;
+    default:
+       // console.log('Invalid month');
+}
+
+let age = 22 
+switch(true) {
+    case
+        (age >= 18 && age <= 40):
+       // console.log('You are an adult');
+        break;
+    default:
+       // console.log('You are a child'); 
+}
 
 
 
