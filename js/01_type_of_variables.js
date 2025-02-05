@@ -24,3 +24,18 @@ const myCountry = 'India'
 // myCountry = 'USA' // cant reassign value
 console.log(myCountry);
 console.log(typeof myCountry); //string
+
+
+// local/global variable
+
+let x = 90 // global variable
+console.log(x); //can do
+
+
+function abc () {
+    let y = 100 // local variable
+    console.log(y); //can do
+    console.log(x); //can do
+}
+
+abc(); //no output [has local variable]
