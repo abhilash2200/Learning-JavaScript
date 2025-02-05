@@ -267,6 +267,17 @@ switch(true) {
        // console.log('You are a child'); 
 }
 
+// alert box
 
+// alert('Hello World!');
+
+let q = 20
+let r = 30
+
+if ( q > r) {
+   // alert('q is less than r');
+} else {
+   // alert('q is not less than r');
+}
 
 
