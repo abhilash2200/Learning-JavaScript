@@ -37,5 +37,6 @@ function abc () {
     console.log(y); //can do
     console.log(x); //can do
 }
+// console.log(y); //cant do 
 
-abc(); //no output [has local variable]
+abc();
