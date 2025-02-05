@@ -33,3 +33,14 @@ if (userInput) {
 prompt('please enter your name:')
 let name = prompt('Please enter your name:');
 console.log(name);
+
+let a = prompt('Enter number of month')
+switch(true) {
+   case(a==1):console.log('January');
+   break;
+   case(a==2):console.log('February');
+   break;
+   case(a==3):console.log('March');
+   break;
+   default:console.log('Invalid month');
+}
