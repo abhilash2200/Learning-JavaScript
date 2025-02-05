@@ -1,3 +1,7 @@
+/*
+*DATE - 05,Feb 25
+*/
+
 function myfunc () {
     let age = prompt('enter your age')
     console.log(age);
@@ -81,4 +85,4 @@ function isLeapYear(year) {
 }
 
 let result5 = isLeapYear(2020)
-console.log(result5)
+console.log(result5) 
