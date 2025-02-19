@@ -85,4 +85,4 @@ function isLeapYear(year) {
 }
 
 let result5 = isLeapYear(2020)
-console.log(result5) 
+console.log(result5)

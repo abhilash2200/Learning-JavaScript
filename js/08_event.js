@@ -29,3 +29,18 @@
 * keyup
 * keypress
 */
+
+
+// window event
+
+/*
+* load
+* unload
+* resize
+* scroll
+* focus
+* blur
+* beforeunload
+* open
+* close
+*/
