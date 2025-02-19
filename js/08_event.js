@@ -30,17 +30,26 @@
 * keypress
 */
 
+// window onload event
 
-// window event
+window.onload = function() {
+    alert('The page is fully loaded.');
+};
 
-/*
-* load
-* unload
-* resize
-* scroll
-* focus
-* blur
-* beforeunload
-* open
-* close
-*/
+//addEventListener
+
+document.getElementById('btn').addEventListener('click', function() {
+    alert('Button clicked');
+});
+
+//scroll event
+
+window.onscroll = function() {
+    console.log('Scrolled');
+}
+
+window.addEventListener('scroll', function() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        console.log('Scrolled');
+    }
+});
