@@ -1,0 +1,7 @@
+let myArray = ['ram', 'shyam', 'mohan', 'sohan', 'radha', 'gita', 'sita', 'rita', 'tina', 'mina'];
+console.log(myArray);
+console.log(myArray.length); //to get the length of the array
+console.log(myArray[0]); //to get the first element of the array
+
+myArray[0] = 'raman'; //to change the first element of the array
+console.log(myArray);
