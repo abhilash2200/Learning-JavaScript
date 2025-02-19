@@ -8,11 +8,22 @@
 </head>
 <body>
 
-    <button id="btn">click me</button>
+    <!-- <button id="btn">click me</button> -->
 
 
 
 
-    <script src="js/08_event.js"></script>
+    <script>
+
+        for(let counter = 1; counter <= 10; counter++){  //Loop tab tak chalega jab tak l ki value numbers.length se chhoti hai.
+            if(counter == 3){
+                continue; //Jaise hi 3 se match ho jayega, loop ke andar pura karega.
+            }
+            document.write(counter);
+            document.write("<br>");
+        }
+
+        document.write("done");
+    </script>
 </body>
 </html>
