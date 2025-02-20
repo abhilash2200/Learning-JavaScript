@@ -103,13 +103,13 @@
 
 // functionName()
 
-function inputType(a, b) {
-    return a / b
-}
+// function inputType(a, b) {
+//     return a / b
+// }
 
-let result = inputType(5, 10)
+// let result = inputType(5, 10)
 
-console.log(result);
+// console.log(result);
 
 
 
