@@ -112,4 +112,20 @@
 // console.log(result);
 
 
+let myArray = [100, 20, 30, 40, 50, 600, 70, 80, 90, 10];
+let myArray1 = ['ram', 'shyam', 'mohan', 'sohan', 'radha', 'gita', 'sita', 'rita', 'tina', 'mina'];
 
+function findLargestNumber(e) {
+    e.sort((a, b) => a - b);
+    //return e[e.length - 1];//returning the last element of the array [biggest]
+    return e[0]; //returning the fast element of the array [smallest]
+
+}
+
+let largestNumber = findLargestNumber(myArray);
+
+console.log(largestNumber);
+
+
+let newArray = ['mango', 'banna',['watermelon', 'orange',['apple', 'grape',['Cherry', 'Coconut']]]] //called nasted array
+console.log(newArray.flat(3));
