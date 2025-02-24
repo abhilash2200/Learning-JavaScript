@@ -111,7 +111,7 @@
 
 // console.log(result);
 
-
+/*
 let myArray = [100, 20, 30, 40, 50, 600, 70, 80, 90, 10];
 let myArray1 = ['ram', 'shyam', 'mohan', 'sohan', 'radha', 'gita', 'sita', 'rita', 'tina', 'mina'];
 
@@ -129,3 +129,43 @@ console.log(largestNumber);
 
 let newArray = ['mango', 'banna',['watermelon', 'orange',['apple', 'grape',['Cherry', 'Coconut']]]] //called nasted array
 console.log(newArray.flat(3));
+*/
+
+/*
+let text = document.getElementById('ptext')
+
+function changeText () {    
+    text.textContent = 'Hello World!'
+}
+
+let btn = document.getElementById('btn')
+btn.addEventListener('click', changeText)
+
+
+let box = document.getElementsByClassName('box')
+function changeColor() {
+    box[0].style.backgroundColor = 'red'; // Sirf pehle wale element ka color change karega
+}
+box[0].addEventListener('mouseover', changeColor);
+
+*/
+
+let input = document.getElementById('name');
+let showtext = document.getElementById('showtext');
+let form = document.getElementById('myForm');
+
+function showText(event) {
+    event.preventDefault(); // Form submit hone se reload nahi hoga
+    showtext.innerText = input.value; // Input ka text show karega
+}
+
+form.addEventListener('submit', showText);
+
+let theembtn = document.getElementById('theme')
+
+function changeTheme() {
+    let body = document.querySelector('body');
+    body.classList.toggle('dark'); // class toggle karne se class mein add ho jayega or remove ho jayega
+}
+
+theembtn.addEventListener('click', changeTheme);

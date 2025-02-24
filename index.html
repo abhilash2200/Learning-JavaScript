@@ -8,6 +8,8 @@
 </head>
 <body>
 
+    <button id="theme">click me</button>
+
     <h1 class="headingtext"></h1>
     
     <p id="demo"></p>
@@ -18,7 +20,7 @@
         Headless UI is a term for libraries and utilities that provide the logic, state, processing and API for UI elements and interactions, but do not provide markup, styles, or pre-built implementations. Scratching your head yet? 😉 Headless UI has a few main goals:
     </p>
 
-    <button id="btn" onclick="changeTextColor()">Change Text</button>
+    <button id="btn">Change Text</button>
 
     <p>list of states in india</p>
     <ul id="items">
@@ -33,13 +35,19 @@
     </ul>
 
 
-    <form>
+    <form id="myForm">
         <input type="text" id="name" name="name"><br>
         <input type="submit" value="Submit">
     </form>
 
+    <p id="showtext"></p>
 
-    <script src="JS/12_dom.js">
+    <div class="box" style="width: 200px; height: 200px; border: 1px solid #000; display: flex; justify-content: center; align-items: center;">
+        div
+    </div>
+
+
+    <script src="JS/practice.js">
 /*
         for(let counter = 1; counter <= 10; counter++){  //Loop tab tak chalega jab tak l ki value numbers.length se chhoti hai.
             if(counter == 3){
