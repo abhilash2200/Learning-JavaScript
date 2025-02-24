@@ -45,6 +45,31 @@ items[0].style.color = 'yellow'
 
 for (let i = 0; i < items.length; i++) {
     items[i].style.color = 'green';
+    items[i].style.fontWeight = 'bold';
+    items[i].style.fontSize = '20px';
 }
 
 console.log(items);
+
+let input = document.querySelector('input')
+input.value  = 'Enter Your Name';
+
+let button = document.querySelector('input[type="submit"]')
+button.style.color = 'red'
+button.style.backgroundColor = 'yellow'
+
+
+let odd = document.querySelectorAll('li:nth-child(odd)')
+
+for (let i = 0; i < odd.length; i++) {
+    odd[i].style.backgroundColor = 'lightgray';
+}
+
+let even = document.querySelectorAll('li:nth-child(even)')
+
+for (let i = 0; i < even.length; i++) {
+    even[i].style.backgroundColor = 'lightblue';
+}
+
+
+
