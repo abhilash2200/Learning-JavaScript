@@ -32,3 +32,19 @@ console.log(heading);
 console.log(paragraph);
 console.log(text);
 console.log(btn);
+
+
+
+let items = document.getElementsByClassName('list-items')
+
+items[0].textContent = 'Telangana'
+items[0].style.color = 'yellow'
+
+
+// Loop through all list items and change their color to green
+
+for (let i = 0; i < items.length; i++) {
+    items[i].style.color = 'green';
+}
+
+console.log(items);
